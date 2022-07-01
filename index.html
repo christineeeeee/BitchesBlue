@@ -1,5 +1,7 @@
 <head>
+	<meta name="generator" content="Hugo 0.63.1" />
   <title>BitchesBlue</title>
+  <link rel="icon" type="image/x-icon" href="avatar.jpg">
   <meta name="theme-color" content="#999686">
   <meta name="viewport" content="initial-scale=1, viewport-fit=cover, width=device-width"></meta>
   <meta name="apple-mobile-web-app-capable" content="yes"></meta>
@@ -21,18 +23,9 @@
 </style>
  
 <script>
-// prevent background image being dragged on mobile device
+
 function preventBehavior(e) { e.preventDefault(); };
 document.addEventListener("touchmove", preventBehavior, {passive: false});
-
-// define favicon
-var link = document.querySelector("link[rel~='icon']");
-if (!link) {
-    link = document.createElement('link');
-    link.rel = 'icon';
-    document.getElementsByTagName('head')[0].appendChild(link);
-}
-link.href = 'avatar.jpg';
 </script>
 
 
